@@ -7,5 +7,5 @@ void remove(char* s, char c) {
 		}
 		s++;
 	}
-	out = '\0';
+	*out = '\0';
 }
